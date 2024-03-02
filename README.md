@@ -29,9 +29,10 @@ python3 sepolicy.py /sdcard/logcat.log > /sdcard/denials
 ```
 Done....
 Now with MT Manager or any other tool that you use copy the content of /sdcard/denials to /system/etc/selinux/plat_sepolicy.cil
-Then reboot 
+then reboot 
 
 
 # Note :
 You need to do this process till the logcat stop generating any more logs ( this can even take 100-200 reboots)
 Enjoy... Don't forget to give credits if you used this method to fix selinux in your ROM
+Mostly after addressing denials related to surfaceflinger and system apps you can boot in enforcing but you need to keep doing the process till no more logs are generated for no issues at all
