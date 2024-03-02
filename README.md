@@ -10,7 +10,7 @@ Lemme guide you with steps how you can do it
 Clone this repo:
 ```
 git clone https://github.com/Xeno761/selinux_denial_writer.git
-
+```
 Get in the cloned directory:
 cd selinux_denial_writer
 ```
